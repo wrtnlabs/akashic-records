@@ -1,0 +1,30 @@
+{
+  "name": "@wrtnlabs/akashic-records-api",
+  "version": "0.1.0",
+  "description": "akashic-records api",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrtnlabs/akashic-records"
+  },
+  "author": "Shrimp <shrimp@wrtn.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrtnlabs/akashic-records/issues"
+  },
+  "homepage": "https://github.com/wrtnlabs/akashic-records",
+  "files": [
+    "lib",
+    "package.json",
+    "swagger.json",
+    "openai.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "@nestia/fetcher": "^4.6.0",
+    "tgrid": "^1.1.0",
+    "typia": "^7.6.0"
+  }
+}
